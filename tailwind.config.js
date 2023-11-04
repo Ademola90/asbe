@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif']
+      },
+
+
       colors: {
         primary: "#0365F8"
       }

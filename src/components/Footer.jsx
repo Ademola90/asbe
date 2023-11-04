@@ -39,21 +39,24 @@ const Footer = () => {
             </div>
           </div>
 
-          <ul className="grid lg:mt-0 md:mt-10 mt-10 font-roboto">
-            <p className=" text-[16px] font-bold">ASBE</p>
-            <li className=" text[16px]">About Us</li>
-            <li className=" text[16px]">Event</li>
-            <li className=" text[16px]">Testimonials</li>
-            <li className=" text[16px]">Blogs</li>
-          </ul>
-          <ul className="grid">
-            <p className=" text-[16px] font-bold">Support</p>
-            <li className=" text[16px]">Careers</li>
-            <li className=" text[16px]">Resources</li>
-            <li className=" text[16px]">Faqs</li>
-            <li className=" text[16px]">Privacy Policy</li>
-            <li className=" text[16px]">Careers</li>
-          </ul>
+          <div className=" flex lg:gap-32 md:gap-10  gap-10 lg:my-0 md:my-10 my-10">
+            <ul className="grid  font-roboto">
+              <p className=" text-[16px] font-bold">ASBE</p>
+              <li className=" text[16px]">About Us</li>
+              <li className=" text[16px]">Event</li>
+              <li className=" text[16px]">Testimonials</li>
+              <li className=" text[16px]">Blogs</li>
+            </ul>
+            <ul className="grid">
+              <p className=" text-[16px] font-bold">Support</p>
+              <li className=" text[16px]">Careers</li>
+              <li className=" text[16px]">Resources</li>
+              <li className=" text[16px]">Faqs</li>
+              <li className=" text[16px]">Privacy Policy</li>
+              <li className=" text[16px]">Careers</li>
+            </ul>
+          </div>
+
           <ul className="grid">
             <p className=" text-[16px] font-bold">Get In Touch</p>
             <li className=" text[16px] flex items-center gap-3">
