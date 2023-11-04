@@ -2,11 +2,11 @@ import React from "react";
 
 const HomeSubscribe = () => {
   return (
-    <div className=" bg-[#F3F7FA] mx-auto">
+    <div className=" bg-[#F3F7FA] mx-auto overflow-x-clip">
       <div className="md:px-16 lg:px-28 px-8 py-10 grid justify-center items-center">
         <div className=" grid justify-center gap-20 items-center w-[613px]">
           <div>
-            <p className=" text-[40px] font-sansation font-bold text-center">
+            <p className=" lg:text-[40px] md:text-[30px] text-[25px] font-sansation font-bold text-center">
               Subscribe to Our Newsletter
             </p>
             <p className=" font-Nunito text-center">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Herobg from "../../assets/Herobg.png";
 import Strategies from "../../components/cards/strategies";
 import Stratimg1 from "../../assets/Stratimg1.png";
@@ -16,8 +16,14 @@ import AffliatedCard from "../../components/cards/affliatedcard";
 import Companyimg from "../../assets/Companyimg.png";
 import Footer from "../../components/Footer";
 import HomeSubscribe from "../../components/subscribe/HomeSubscribe";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   // strategies.jsx
   const data = [
     {
@@ -187,8 +193,13 @@ const Home = () => {
         <img src={require("../../assets/Heroimgg.jpg")} alt="" />
       </div>
 
+      {/* Whar we do */}
       <div className=" bg-primary text-white py-20">
-        <div className="grid lg:px-16 md:px-10 px-5 gap-5">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          className="grid lg:px-16 md:px-10 px-5 gap-5"
+        >
           <div className="flex justify-center items-center">
             <p className="lg:text-[40px] md:text-[34px] text-[24px] font-bold font-satoshi">
               WHAT WE DO
@@ -204,8 +215,14 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Strategics */}
+
       <div className="bg-[#E2F5FF] py-10">
-        <div className=" flex justify-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          className=" flex justify-center"
+        >
           <p className=" lg:text-[44px] md:text-[34px] text-[24px] font-bold font-satoshi">
             {" "}
             <span className=" lg:text-[44px] md:text-[34px] text-[24px] text-primary font-bold font-satoshi">
@@ -220,15 +237,24 @@ const Home = () => {
         <div className=" pt-10  grid justify-center">
           <Strategies data={data} />
         </div>
-        <div className=" flex justify-center mt-10">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className=" flex justify-center mt-10"
+        >
           <button className=" font-satoshi w-[206.59px] h-[49px] rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in">
             View all{" "}
           </button>
         </div>
       </div>
 
+      {/* Founder Board */}
       <div className="lg:px-16 md:px-10 px-5 pt-10">
-        <div className=" flex justify-center">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          className=" flex justify-center"
+        >
           <p className=" lg:text-[44px] md:text-[44px] text-[24px] font-satoshi font-bold ">
             Meet our{" "}
             <span className=" lg:text-[44px] md:text-[34px] text-[24px] text-primary font-satoshi font-bold">
@@ -237,13 +263,21 @@ const Home = () => {
             Board
           </p>
         </div>
-        <div className=" flex justify-center">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          className=" flex justify-center"
+        >
           <p className=" text-center">Lorem ipsum dolor sit amet</p>
         </div>
         <div className=" pt-10  grid justify-center">
           <FoundBoardcard board={board} />
         </div>
-        <div className=" flex justify-center mt-10">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          className=" flex justify-center mt-10"
+        >
           <button className=" font-satoshi w-[206.59px] h-[49px] rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in">
             View all{" "}
           </button>
@@ -258,8 +292,13 @@ const Home = () => {
         />
       </div>
 
+      {/* Event */}
       <div className="lg:px-16 md:px-10 px-5 py-10">
-        <div className=" flex justify-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          className=" flex justify-center"
+        >
           <p className=" lg:text-[44px] md:text-[44px] text-[24px] font-satoshi font-bold ">
             Latest{" "}
             <span className=" lg:text-[44px] md:text-[34px] text-[24px] text-primary font-satoshi font-bold">
@@ -267,13 +306,25 @@ const Home = () => {
             </span>
           </p>
         </div>
-        <div className=" flex justify-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          className=" flex justify-center"
+        >
           <p className=" text-center">Lorem ipsum dolor sit amet</p>
         </div>
-        <div className=" pt-10  grid justify-center">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          className=" pt-10  grid justify-center"
+        >
           <LatestEvent events={events} />
         </div>
-        <div className=" flex justify-center mt-10">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          className=" flex justify-center mt-10"
+        >
           <button className=" font-satoshi w-[206.59px] h-[49px] rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in">
             View all{" "}
           </button>
@@ -287,7 +338,13 @@ const Home = () => {
         />
       </div>
 
-      <div className="bg-[#E2F5FF] py-10">
+      {/* Our Strategies */}
+
+      <div
+        data-aos="fade-down"
+        data-aos-duration="3000"
+        className="bg-[#E2F5FF] py-10"
+      >
         <div className=" flex justify-center">
           <p className=" lg:text-[44px] md:text-[34px] text-[24px] font-bold font-satoshi">
             {" "}
@@ -307,7 +364,11 @@ const Home = () => {
 
       {/* Testimonial */}
 
-      <div className=" bg-white py-10">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className=" bg-white py-10"
+      >
         <div className=" lg:flex md:grid grid md:px-16 lg:px-28 px-8 items-center justify-center mx-auto w-full">
           <div className=" lg:w-2/5 md:w-full w-full grid justify-center items-center p-5">
             <img
@@ -377,11 +438,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
+      {/* Subscribe to Our Newsletter */}
+      <div data-aos="fade-right" data-aos-duration="3000">
         <HomeSubscribe />
       </div>
       {/* footer */}
-      <div>
+      <div data-aos="fade-left" data-aos-duration="3000">
         <Footer />
       </div>
     </div>

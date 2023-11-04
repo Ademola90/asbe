@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Strategies = ({ data }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className=" lg:px-16 md:px-10 px-5 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10 ">
+    <div
+      data-aos="fade-left"
+      data-aos-duration="3000"
+      className=" lg:px-16 md:px-10 px-5 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10 "
+    >
       {data.map((item) => (
         <div
           key={item.id}
