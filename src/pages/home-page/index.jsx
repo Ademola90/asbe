@@ -18,6 +18,7 @@ import Footer from "../../components/Footer";
 import HomeSubscribe from "../../components/subscribe/HomeSubscribe";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   useEffect(() => {
@@ -242,9 +243,12 @@ const Home = () => {
           data-aos-duration="3000"
           className=" flex justify-center mt-10"
         >
-          <button className=" font-satoshi w-[206.59px] h-[49px] rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in">
+          <Link
+            to="/about"
+            className=" font-satoshi w-[206.59px] h-[49px] grid justify-center items-center rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in"
+          >
             View all{" "}
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -278,9 +282,12 @@ const Home = () => {
           data-aos-duration="3000"
           className=" flex justify-center mt-10"
         >
-          <button className=" font-satoshi w-[206.59px] h-[49px] rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in">
+          <Link
+            to="/about"
+            className=" font-satoshi w-[206.59px] h-[49px] grid justify-items-center items-center rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in"
+          >
             View all{" "}
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -325,9 +332,12 @@ const Home = () => {
           data-aos-duration="3000"
           className=" flex justify-center mt-10"
         >
-          <button className=" font-satoshi w-[206.59px] h-[49px] rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in">
+          <Link
+            to="/about"
+            className=" font-satoshi w-[206.59px] h-[49px] grid justify-center items-center rounded-md border-2 border-[#2B70FA] text-[#2B70FA] transition-transform hover:scale-110 duration-300 ease-in"
+          >
             View all{" "}
-          </button>
+          </Link>
         </div>
       </div>
       <div className=" grid justify-end h-2">
