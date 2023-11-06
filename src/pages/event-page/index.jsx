@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import EventEroimg from "../../assets/EvenHerotimg.png";
 import UpcomingEventCard from "../../components/cards/upcomingeventcard";
 import Event1 from "../../assets/Event1.png";
@@ -22,8 +22,13 @@ import Progimg from "../../assets/Progimg.png";
 import HomeSubscribe from "../../components/subscribe/HomeSubscribe";
 import Footer from "../../components/Footer";
 import MoreEvents from "../../components/cards/MoreEvents";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Events = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   // upcomingeventcard.jsx
   const upcoming = [
     {
@@ -326,7 +331,11 @@ const Events = () => {
       {/* UPCOMING EVENTS/PROGRAMS */}
 
       <div className="lg:px-16 md:px-10 px-5 py-20">
-        <div className="grid justify-center items-center">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          className="grid justify-center items-center"
+        >
           <p className="text-[#0E1133] lg:text-[44px] md:text-[34px] text-[28px] font-bold font-satoshi text-center">
             {" "}
             <span className="text-[#0365F8] lg:text-[44px] md:text-[34px] text-[28px] font-bold font-satoshi text-center ">
@@ -339,13 +348,17 @@ const Events = () => {
           </p>
         </div>
         <div className=" lg:flex md:grid grid justify-center items-center mt-10">
-          <div className=" lg:w-9/12 md:w-full w-full grid justify-center">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            className=" lg:w-9/12 md:w-full w-full grid justify-center"
+          >
             <UpcomingEventCard upcoming={upcoming} />
           </div>
 
           {/* News */}
           <div className=" grid justify-center lg:w-4/12 md:w-full w-full">
-            <div>
+            <div data-aos="fade-left" data-aos-duration="3000">
               <div className=" mb-3">
                 <p className=" text-[20px] font-satoshi font-bold">
                   News and Notices
@@ -357,7 +370,11 @@ const Events = () => {
             </div>
 
             {/* PopularEvents */}
-            <div className=" mt-5 border-2 border-[#EBECF1] gap-5 grid justify-center p-5 lg:w-[320px] md:w-[500px] w-[300px] rounded-md">
+            <div
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              className=" mt-5 border-2 border-[#EBECF1] gap-5 grid justify-center p-5 lg:w-[320px] md:w-[500px] w-[300px] rounded-md"
+            >
               <div>
                 <p className=" text-[18px] font-bold font-satoshi">
                   Popular Events
@@ -374,7 +391,11 @@ const Events = () => {
             </div>
 
             {/* PopularTags */}
-            <div className=" grid justify-center">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              className=" grid justify-center"
+            >
               <div className=" mt-5 border-2 border-[#EBECF1] gap-5 grid  p-5 lg:w-[320px] md:w-[500px] w-[300px] rounded-md">
                 <div className="">
                   <p className=" text-[18px] font-bold font-satoshi">
@@ -410,7 +431,11 @@ const Events = () => {
 
       <div className=" bg-[#E2F5FF] py-20">
         <div className="lg:px-16 md:px-10 px-5">
-          <div className=" grid justify-center items-center">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            className=" grid justify-center items-center"
+          >
             <p className=" text-[#0E1133] lg:text-[38px] md:text-[30px] text-[28px] font-bold font-satoshi text-center">
               ACTIVITIES -{" "}
               <span className=" text-primary lg:text-[38px] md:text-[30px] text-[28px] font-bold font-satoshi text-center">
@@ -422,15 +447,23 @@ const Events = () => {
               We’re driven by our values
             </p>
           </div>
-          <div className=" grid justify-center mt-10 ">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="3000"
+            className=" grid justify-center mt-10 "
+          >
             <ActivitiesCard activities={activities} />
           </div>
         </div>
       </div>
 
-      {/*We’re driven by our values*/}
+      {/*LATEST EVENTS/PROGRAMS*/}
       <div className="lg:px-16 md:px-10 px-5 py-20">
-        <div className=" flex justify-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          className=" flex justify-center"
+        >
           <p className=" lg:text-[44px] md:text-[44px] text-[24px] font-satoshi font-bold ">
             <span className=" lg:text-[44px] md:text-[34px] text-[24px] text-primary font-satoshi font-bold">
               LATEST{" "}
@@ -438,10 +471,18 @@ const Events = () => {
             EVENTS/PROGRAMS
           </p>
         </div>
-        <div className=" flex justify-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          className=" flex justify-center"
+        >
           <p className=" text-center">We’re driven by our values</p>
         </div>
-        <div className=" pt-10  grid justify-center">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          className=" pt-10  grid justify-center"
+        >
           <LatestProgramsCard latestPrograms={latestPrograms} />
         </div>
       </div>
@@ -449,7 +490,11 @@ const Events = () => {
       {/* MORE EVENTS */}
       <div className="lg:px-16 md:px-10 px-5 py-10">
         <div className="lg:flex md:grid grid justify-center items-center">
-          <div className=" lg:w-3/5 md:w-full w-full">
+          <div
+            data-aos="fade-down"
+            data-aos-duration="3000"
+            className=" lg:w-3/5 md:w-full w-full"
+          >
             <img
               className=" lg:w-[650px] lg:h-[300px]"
               src={require("../../assets/Moreevents.png")}
@@ -467,7 +512,11 @@ const Events = () => {
               </p>
             </div>
           </div>
-          <div className=" lg:w-2/5 md:w-full w-full">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            className=" lg:w-2/5 md:w-full w-full"
+          >
             <div className=" grid">
               <p className=" font-satoshi font-bold text-[24px]">More Event</p>
             </div>
@@ -479,11 +528,11 @@ const Events = () => {
       </div>
 
       {/* Subscribe to Our Newsletter */}
-      <div>
+      <div data-aos="fade-right" data-aos-duration="3000">
         <HomeSubscribe />
       </div>
       {/* footer */}
-      <div>
+      <div data-aos="fade-left" data-aos-duration="3000">
         <Footer />
       </div>
     </div>
