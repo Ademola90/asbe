@@ -82,70 +82,70 @@ const About = () => {
       icon: image1,
       education: "Virtual Education",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "This strategy aims to provide guidance, share insights, and foster meaningful connections, empowering the next generation of African entrepreneurs.",
     },
     {
       id: 2,
       icon: image2,
-      education: "Virtual Education",
+      education: "Youth Mentorship Initiative",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "Introduce a Youth Mentorship Initiative that pairs experienced entrepreneurs with aspiring young innovators.",
     },
     {
       id: 3,
       icon: image3,
-      education: "Virtual Education",
+      education: "Fintech Innovation Lab",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "Establish a Fintech Innovation Lab to accelerate the development of financial technology solutions. ",
     },
     {
       id: 4,
       icon: image4,
-      education: "Virtual Education",
+      education: "Social Impact Investment Fund",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "This strategy involves providing funding, mentorship, and networking opportunities to businesses committed to making a positive impact on society..",
     },
     {
       id: 5,
       icon: image5,
-      education: "Virtual Education",
+      education: "Cross-Border Collaboration Network",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "This strategy aims to break down geographical barriers, facilitate knowledge exchange, and promote cross-cultural collaborations to strengthen the African entrepreneurial ecosystem.",
     },
     {
       id: 6,
       icon: image6,
-      education: "Virtual Education",
+      education: "Tech Incubation Bootcamp",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "This strategy involves intensive training, mentorship from industry experts, and access to resources that propel innovative tech ventures to success.",
     },
     {
       id: 7,
       icon: image7,
-      education: "Virtual Education",
+      education: "Inclusive Start-Up Grants",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "Introduce Inclusive Start-Up Grants to support entrepreneurs from underrepresented groups. This strategy aims to provide financial assistance, mentorship, and resources to foster diversity and inclusivity within the entrepreneurial landscape.",
     },
     {
       id: 8,
       icon: image8,
-      education: "Virtual Education",
+      education: "Creative Arts Innovation Fund",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "This strategy involves providing funding, mentorship, and networking opportunities to empower artists, designers, and cultural innovators in Africa.",
     },
     {
       id: 9,
       icon: image9,
-      education: "Virtual Education",
+      education: "Circular Economy Challenge",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        "Implement a Circular Economy Challenge to encourage entrepreneurs to create businesses with a focus on sustainability and waste reduction.",
     },
     {
       id: 10,
       icon: image10,
-      education: "Virtual Education",
+      education: "HealthTech Collaboration Platform",
       descriptions:
-        "Lorem ipsum dolor sit amet consectetur. Mauris leo amet vel.",
+        " Develop a HealthTech Collaboration Platform to connect entrepreneurs working on healthcare solutions.",
     },
   ];
 
@@ -161,44 +161,44 @@ const About = () => {
     {
       id: 2,
       boardimage: FRectangle,
-      name: "Prof. Dapo Adeoye,",
-      boarddescription: "University of Ilorin, Nigeria",
+      name: "Prof. Amina Kamara,",
+      boarddescription: "University of Lagos, Nigeria",
     },
     {
       id: 3,
       boardimage: FRectangle,
-      name: "Prof. Dapo Adeoye, ",
-      boarddescription: "University of Ilorin, Nigeria",
+      name: "Prof.  Moustapha Diop ",
+      boarddescription: "University Cheikh Anta Diop, Senegal",
     },
     {
       id: 4,
       boardimage: FRectangle,
-      name: "Prof. Dapo Adeoye, ",
-      boarddescription: "University of Ilorin, Nigeria",
+      name: "Prof. Nia Patel ",
+      boarddescription: "University of Cape Town, South Africa",
     },
     {
       id: 5,
       boardimage: FRectangle,
-      name: "Prof. Dapo Adeoye, ",
-      boarddescription: "University of Ilorin, Nigeria",
+      name: "Prof. Tariq Ouedraogo",
+      boarddescription: "University of Ouagadougou, Burkina Faso",
     },
     {
       id: 6,
       boardimage: FRectangle,
-      name: "Prof. Dapo Adeoye, ",
-      boarddescription: "University of Ilorin, Nigeria",
+      name: "Prof. Aisha Nkomo, ",
+      boarddescription: "University of Nairobi, Kenya",
     },
     {
       id: 7,
       boardimage: FRectangle,
-      name: "Prof. Dapo Adeoye, ",
-      boarddescription: "University of Ilorin, Nigeria",
+      name: "Prof. Malik Bah, ",
+      boarddescription: "University of The Gambia",
     },
     {
       id: 8,
       boardimage: FRectangle,
-      name: "Prof. Dapo Adeoye, ",
-      boarddescription: "University of Ilorin, Nigeria",
+      name: "Prof. Nia Patel, ",
+      boarddescription: "University of Cape Town, South Africa",
     },
   ];
 
@@ -343,7 +343,7 @@ const About = () => {
           </div>
           <div className=" flex justify-center items-center">
             <p className=" text-[18px] text-[#0E1133]">
-              We’re driven by our values
+              Empowering Success Through Innovation and Sustainability
             </p>
           </div>
         </div>

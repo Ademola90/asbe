@@ -100,14 +100,14 @@ const Events = () => {
       newsImg: News,
       newsText: "NEWS",
       newsDescription:
-        "Lorem ipsum dolor sit amet consectetur. Sed neque risus laoreet rhoncus tristique fermentum.",
+        "We are thrilled to announce that our company is entering a new phase of innovation and growth. Our dedicated team is working tirelessly to bring you cutting-edge products and services that will transform the industry. Stay tuned for more updates as we continue to reach new heights in our journey of excellence.",
     },
     {
       id: 2,
       newsImg: News,
       newsText: "NEWS",
       newsDescription:
-        "Lorem ipsum dolor sit amet consectetur. Sed neque risus laoreet rhoncus tristique fermentum.",
+        "We are thrilled to announce our expansion into new markets as we continue to grow and diversify our business. With this expansion, we aim to better serve our customers and reach new horizons. This marks a significant step in our journey to provide even more value and opportunities to our clients and partners. Stay tuned for updates as we explore these exciting new avenues.",
     },
   ];
 
@@ -243,44 +243,44 @@ const Events = () => {
     {
       id: 1,
       programsImg: Progimg,
-      programsName: "Event Name",
+      programsName: "Tech Innovate Africa",
       programsDescription:
-        "Lorem ipsum dolor sit amet consectetur. Urna faucibus in elit bibendum eget. Risus sed et sit.",
+        "Discover the cutting-edge technology shaping Africa's future. Join us for a day of exciting innovation showcases, tech talks, and networking opportunities with industry experts.",
     },
     {
       id: 2,
       programsImg: Progimg,
-      programsName: "Event Name",
+      programsName: "Sustainable Business Summit",
       programsDescription:
-        "Lorem ipsum dolor sit amet consectetur. Urna faucibus in elit bibendum eget. Risus sed et sit.",
+        "Dive into discussions on sustainable business practices and their profound impact on Africa. Engage with top executives and thought leaders in a one-of-a-kind summit.",
     },
     {
       id: 3,
       programsImg: Progimg,
-      programsName: "Event Name",
+      programsName: "Entrepreneurship Expo",
       programsDescription:
-        "Lorem ipsum dolor sit amet consectetur. Urna faucibus in elit bibendum eget. Risus sed et sit.",
+        " Immerse yourself in the world of startups and entrepreneurship. Explore a wide array of innovative ideas and products, connect with passionate founders, and learn from their experiences.",
     },
     {
       id: 4,
       programsImg: Progimg,
-      programsName: "Event Name",
+      programsName: "Women in Leadership Forum",
       programsDescription:
-        "Lorem ipsum dolor sit amet consectetur. Urna faucibus in elit bibendum eget. Risus sed et sit.",
+        " Elevate women's leadership in Africa. Engage in insightful conversations, workshops, and network with accomplished female leaders, fostering a brighter future for women in business.",
     },
     {
       id: 5,
       programsImg: Progimg,
-      programsName: "Event Name",
+      programsName: "Green Energy Symposium",
       programsDescription:
-        "Lorem ipsum dolor sit amet consectetur. Urna faucibus in elit bibendum eget. Risus sed et sit.",
+        "Explore the future of clean and renewable energy solutions in Africa. Dive into sustainable practices, hear success stories, and join experts as they discuss green energy's role on the continent.",
     },
     {
       id: 6,
       programsImg: Progimg,
-      programsName: "Event Name",
+      programsName: "Cultural Festival & Market",
       programsDescription:
-        "Lorem ipsum dolor sit amet consectetur. Urna faucibus in elit bibendum eget. Risus sed et sit.",
+        " Immerse yourself in a vibrant celebration of Africa's rich cultures. Enjoy music, art, delicious cuisine, and shop for unique local products at this lively cultural festival and market.",
     },
   ];
 
@@ -288,24 +288,24 @@ const Events = () => {
   const moreEvents = [
     {
       id: 1,
-      moreEventsTitle: "Event Title",
+      moreEventsTitle: "Innovation Accelerator Summit",
       moreEventsDate: "28 Nov",
       moreEventsText:
-        "Lorem ipsum dolor sit amet consectetur. Sit facilisis aliquet gravida vulputate.",
+        " Join us for a high-energy summit focused on catalyzing innovation and entrepreneurship in Africa. Engage with dynamic speakers, workshops, and innovation showcases.",
     },
     {
       id: 2,
-      moreEventsTitle: "Event Title",
+      moreEventsTitle: "Investor's Pitch Day",
       moreEventsDate: "28 Nov",
       moreEventsText:
-        "Lorem ipsum dolor sit amet consectetur. Sit facilisis aliquet gravida vulputate.",
+        "Entrepreneurs pitch their groundbreaking ideas to potential investors, creating a dynamic environment for funding and growth opportunities.",
     },
     {
       id: 3,
-      moreEventsTitle: "Event Title",
+      moreEventsTitle: "Youth Empowerment Expo",
       moreEventsDate: "28 Nov",
       moreEventsText:
-        "Lorem ipsum dolor sit amet consectetur. Sit facilisis aliquet gravida vulputate.",
+        "Empower the next generation of African leaders. This expo offers workshops, mentorship, and inspirational talks for young entrepreneurs and innovators.",
     },
   ];
 
@@ -344,7 +344,7 @@ const Events = () => {
             EVENTS/PROGRAMS
           </p>
           <p className=" text-[18px] font-satoshi text-[#0E1133] text-center">
-            We’re driven by our values
+            Exciting Upcoming Events to Mark in Your Calendar
           </p>
         </div>
         <div className=" lg:flex md:grid grid justify-center items-center mt-10">
@@ -476,7 +476,9 @@ const Events = () => {
           data-aos-duration="3000"
           className=" flex justify-center"
         >
-          <p className=" text-center">We’re driven by our values</p>
+          <p className=" text-center">
+            Stay Up-to-Date with Our Latest Events/Programs
+          </p>
         </div>
         <div
           data-aos="fade-left"
@@ -505,10 +507,10 @@ const Events = () => {
                 GEORGE Copeland is coming to ASBE!
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Cras felis viverra
-                ultrices ultricies tellus ut fermentum. Eleifend eleifend amet
-                at duis. Posuere blandit nisi venenatis cras faucibus convallis.
-                Non eu nulla ut parturient in sem mattis et.
+                Passionate about sustainability and responsible business? Join
+                ASBE and be part of a community dedicated to driving positive
+                change. Connect, access resources, and help shape a more
+                sustainable future. Join us today!
               </p>
             </div>
           </div>

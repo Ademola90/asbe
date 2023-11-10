@@ -8,23 +8,23 @@ const StoriesCard = ({ stories }) => {
           key={item.id}
           className={` shadow-md lg:w-[280px] border p-5 ${
             index === 0
-              ? "lg:h-[240px] lg:mt-0"
+              ? "lg:h-[400px] lg:mt-0"
               : index === 1
-              ? "lg:h-[200px] lg:mt-0"
+              ? "lg:h-[250px] lg:mt-0"
               : index === 2
-              ? "lg:h-[270px] lg:mt-0"
+              ? "lg:h-[380px] lg:mt-0"
               : index === 3
-              ? "lg:h-[160px] lg:mt-[-20px]"
+              ? "lg:h-[190px] lg:mt-[10px]"
               : index === 4
-              ? "lg:h-[270px] lg:mt-[-60px]"
+              ? "lg:h-[430px] lg:mt-[-140px]"
               : index === 5
-              ? "lg:h-[150px] lg:mt-[10px]"
+              ? "lg:h-[240px] lg:mt-[-10px]"
               : index === 6
-              ? "lg:h-[150px] lg:mt-[-60px]"
+              ? "lg:h-[210px] lg:mt-[-80px]"
               : index === 7
-              ? "lg:h-[150px] lg:mt-[10px]"
+              ? "lg:h-[360px] lg:mt-[10px]"
               : index === 8
-              ? "lg:h-[180px] lg:mt-[-40px]"
+              ? "lg:h-[280px] lg:mt-[-40px]"
               : index === 9
               ? "lg:h-[650px] lg:mt-36"
               : "lg:h-[200px] lg:mt-4" // Default style for other indices
@@ -32,7 +32,7 @@ const StoriesCard = ({ stories }) => {
         >
           <div className="grid justify-center items-center">
             <div className="flex items-center">
-              <div className="grid">
+              <div className="grid w-3/5">
                 <div>
                   <p className="font-[14px] font-satoshi">
                     {item.storiesTitle}
@@ -44,17 +44,21 @@ const StoriesCard = ({ stories }) => {
                     <p className="font-satoshi text-[12px]">
                       {item.storiesText1}
                     </p>
-                    <p className="font-satoshi text-[12px]">
+                    <span className="font-satoshi text-[12px]">
                       {item.storiesText2}
-                    </p>
+                    </span>
                   </div>
                 </div>
               </div>
-              <div>
-                <img className="w-[137px]" src={item.storiesImg} alt="" />
-              </div>
+              <span className=" w-2/5">
+                <img
+                  className="w-[137px] relative"
+                  src={item.storiesImg}
+                  alt=""
+                />
+              </span>
             </div>
-            <div>
+            <div className=" ">
               <p>{item.storiesText3}</p>
             </div>
           </div>

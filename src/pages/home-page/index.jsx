@@ -154,9 +154,7 @@ const Home = () => {
         className=" lg:mt-[70px] md:mt-[100px] mt-[100px] bg-no-repeat bg-cover  md:py-20 lg:py-0 py-10  "
       >
         <div className=" grid lg:px-16 md:px-10 px-5 lg:p-32 gap-5">
-          <p className=" text-white mt-4">
-            Lorem ipsum dolor sit amet consectetur.{" "}
-          </p>
+          <p className=" text-white mt-4">Elevate Your Experience </p>
           <div className=" lg:w-[675px]">
             <p className=" font-satoshi lg:text-[50px] md:text-[50px] text-[35px] text-white font-bold">
               AFRICA{" "}
@@ -233,7 +231,9 @@ const Home = () => {
           </p>
         </div>
         <div className=" flex justify-center">
-          <p className=" text-center">Lorem ipsum dolor sit amet</p>
+          <p className=" text-center">
+            Empowering Success Through Innovation and Sustainability
+          </p>
         </div>
         <div className=" pt-10  grid justify-center">
           <Strategies data={data} />
@@ -272,7 +272,7 @@ const Home = () => {
           data-aos-duration="3000"
           className=" flex justify-center"
         >
-          <p className=" text-center">Lorem ipsum dolor sit amet</p>
+          <p className=" text-center">Meet our amazing members and founders</p>
         </div>
         <div className=" pt-10  grid justify-center">
           <FoundBoardcard board={board} />
@@ -318,7 +318,10 @@ const Home = () => {
           data-aos-duration="3000"
           className=" flex justify-center"
         >
-          <p className=" text-center">Lorem ipsum dolor sit amet</p>
+          <p className=" text-center">
+            {" "}
+            Stay Up-to-Date with Our Latest Events
+          </p>
         </div>
         <div
           data-aos="fade-left"
@@ -365,7 +368,7 @@ const Home = () => {
           </p>
         </div>
         <div className=" flex justify-center">
-          <p className=" text-center">Lorem ipsum dolor sit amet</p>
+          <p className=" text-center"> We’re driven by our values</p>
         </div>
         <div className=" pt-10  grid justify-center">
           <AffliatedCard affliated={affliated} />

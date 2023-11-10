@@ -11,8 +11,10 @@ const Footer = () => {
             </div>
             <div className=" w-[250px]">
               <p>
-                Lorem ipsum dolor sit amet consectetur. Ligula id facilisi sed
-                aliquam dolor.{" "}
+                is a support and motivational intellectuals birthed to raise
+                vibrant and resilience entrepreneurs, innovators, Technology and
+                skills developers across higher institution of learning in
+                Africa.{" "}
               </p>
             </div>
             <div className=" flex gap-3 items-center">

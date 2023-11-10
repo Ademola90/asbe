@@ -118,87 +118,98 @@ const Testimonials = () => {
     {
       id: 1,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName:
+        "Given by -  Aisha Mohammed and Renewable Energy Entrepreneur",
       storiesImg: Stories1,
-      storiesText1: "Lorem ipsum dolor sit amet consectetur.",
+      storiesText1:
+        "The Africa Support Bureau for Entrepreneurship provided me with the tools and connections to drive my renewable energy venture forward. ",
       storiesText2: "",
       storiesText3:
-        "Lorem ipsum dolor sit amet consectetur. Mattis erat magnis quis interdum quis donec sit ac purus.",
+        "Join us at the Africa Support Bureau for Entrepreneurship, where entrepreneurs like Aisha Mohammed find the support they need to drive sustainable ventures. ",
     },
     {
       id: 2,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName: "Given by -  Kwame Osei and Tech Startup Founder",
       storiesImg: Stories2,
       storiesText1: "",
       storiesText2: "",
       storiesText3:
-        "Lorem ipsum dolor sit amet consectetur. Mattis erat magnis quis interdum quis donec sit ac purus.",
+        "The Innovation Accelerator Summit organized by the Africa Support Bureau for Entrepreneurship was a turning point for my tech startup",
     },
     {
       id: 3,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName: "Given by -  Fatima Nkosi and Social Impact Innovator",
       storiesImg: Stories3,
-      storiesText1: "Lorem ipsum dolor sit amet consectetur.",
-      storiesText2: "Lorem ipsum dolor sit amet consectetur.",
+      storiesText1:
+        "Attending the Social Impact Forum organized by the Africa Support Bureau for Entrepreneurship inspired me to amplify the positive change my initiatives can bring",
+      storiesText2: "",
       storiesText3:
-        "Lorem ipsum dolor sit amet consectetur. Mattis erat magnis quis interdum quis donec sit ac purus.",
+        "Join the Africa Support Bureau for Entrepreneurship at the Social Impact Forum and become part of a community dedicated to driving positive change. ",
     },
     {
       id: 4,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName: "Given by - Samuel Dube and Fintech Entrepreneur",
       storiesImg: Stories4,
       storiesText1: "",
       storiesText2: "",
-      storiesText3: "Lorem ipsum dolor sit amet consectetur",
+      storiesText3:
+        "Navigate the evolving landscape of fintech with the Africa Support Bureau for Entrepreneurship.",
     },
     {
       id: 5,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName: "Given by - Nia Kamau and HealthTech Innovator",
       storiesImg: Stories5,
-      storiesText1: "Lorem ipsum dolor sit amet consectetur.",
-      storiesText2: "Lorem ipsum dolor sit amet consectetur.",
+      storiesText1:
+        "The Healthcare Innovation Symposium by the Africa Support Bureau for Entrepreneurship provided a unique space to connect with industry leaders.",
+      storiesText2:
+        "Revolutionize healthcare with the Africa Support Bureau for Entrepreneurship",
       storiesText3:
-        "Lorem ipsum dolor sit amet consectetur. Mattis erat magnis quis interdum quis donec sit ac purus.",
+        "Join the Africa Support Bureau for Entrepreneurship in shaping the future of healthcare innovation. ",
     },
     {
       id: 6,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName: "Given by - Malik Diop and Agripreneur",
       storiesImg: Stories6,
       storiesText1: "",
       storiesText2: "",
-      storiesText3: "Lorem ipsum dolor sit amet consectetur.",
+      storiesText3:
+        "Participating in the Agri-Tech Revolution organized by the Africa Support Bureau for Entrepreneurship has been a game-changer for my agribusiness.",
     },
     {
       id: 7,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName: "Given by - Amina Jallow and E-commerce Trailblazer",
       storiesImg: Stories7,
       storiesText1: "",
       storiesText2: "",
-      storiesText3: "Lorem ipsum dolor sit amet consectetur.",
+      storiesText3:
+        "The Entrepreneurship Expo hosted by the Africa Support Bureau was a turning point for my e-commerce venture. ",
     },
     {
       id: 8,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName: "Given by - Tariq Nkomo and EdTech Innovator",
       storiesImg: Stories8,
       storiesText1: "",
       storiesText2: "",
-      storiesText3: "Lorem ipsum dolor sit amet consectetur.",
+      storiesText3:
+        "Empower the next generation of innovators with the Africa Support Bureau for Entrepreneurship. The Youth Empowerment Expo is a catalyst for EdTech innovators like Tariq Nkomo, providing mentorship, workshops, and networking opportunities to shape the future of education.",
     },
     {
       id: 9,
       storiesTitle: "TESTIMONIAL",
-      storiesName: "Given by - Name and Profession",
+      storiesName: "Given by - Zara Mwangi and  Fashion Entrepreneur",
       storiesImg: Stories9,
-      storiesText1: "Lorem ipsum dolor sit amet consectetur.",
+      storiesText1:
+        "Celebrate Africa's rich cultures at the Cultural Festival & Market by the Africa Support Bureau. ",
       storiesText2: "",
-      storiesText3: "Lorem ipsum dolor sit amet consectetur.",
+      storiesText3:
+        "Immerse yourself in a cultural extravaganza with the Africa Support Bureau for Entrepreneurship. ",
     },
   ];
 
@@ -424,10 +435,11 @@ const Testimonials = () => {
 
               <div>
                 <p className=" font-satoshi text-center text-[20px] text-white">
-                  Lorem ipsum dolor sit amet consectetur. Porttitor ipsum augue
-                  lorem orci adipiscing. Volutpat purus dolor sem aliquet ut.
-                  Nunc arcu risus justo lacus dignissim porttitor proin sagittis
-                  condimentum. Praesent eu egestas at arcu.
+                  I was amazed by the exceptional service provided by this
+                  company. Their professionalism and dedication to meeting my
+                  needs were outstanding. I couldn't be happier with the
+                  results. I highly recommend their services to anyone seeking
+                  top-quality solutions.
                 </p>
               </div>
             </div>
@@ -436,7 +448,7 @@ const Testimonials = () => {
                 Debbie George
               </div>
               <div className=" font-satoshi text-[16px] text-white">
-                Profession
+                FinTech
               </div>
             </div>
           </div>
