@@ -32,21 +32,21 @@ const Home = () => {
       image: Stratimg1,
       title: "VIRTUAL EDUCATION",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Tellus sagittis odio in volutpat ultrices aenean natoque gravida. Fringilla metus sit.",
+        "This strategy aims to provide guidance, share insights, and foster meaningful connections, empowering the next generation of African entrepreneurs.",
     },
     {
       id: 2,
       image: Stratimg2,
       title: "Entrepreneurs motivation",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Tellus sagittis odio in volutpat ultrices aenetus sit.",
+        "Introduce a Youth Mentorship Initiative that pairs experienced entrepreneurs with aspiring young innovators.",
     },
     {
       id: 3,
       image: Stratimg3,
       title: "Implementation of Mentoring",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Tellus sagittis odio in volutpat ultrices aenetus sit.",
+        "this program connects seasoned mentors with ambitious entrepreneurs, fostering a dynamic ecosystem of growth and collaboration. ",
     },
   ];
 
@@ -178,7 +178,7 @@ const Home = () => {
               Higher Institutions of Learning.
             </p>
           </div>
-          <div className=" flex gap-4 items-center mt-10">
+          <div className="  hidden gap-4 items-center mt-10">
             <button className=" border-2 border-primary text-primary w-[65px] h-[29px] rounded-md transition-transform hover:scale-110 duration-300 ease-in">
               Login
             </button>
