@@ -46,11 +46,25 @@ const Navbar = () => {
           Testimonials
         </Link>
       </div>
-      <div>
-        <Link className="px-5 py-2 lg:block md:block hidden rounded-md text-[#fff] bg-[#0365F8] no-underline transition-transform hover:scale-110 duration-300 ease-in">
-          Create account
-        </Link>
+      <div className="flex items-center gap-3">
+        <div>
+          <Link
+            to="/login"
+            className="px-5 py-2 lg:block md:block hidden rounded-md hover:text-[#0365F8] text-black no-underline transition-transform hover:scale-110 duration-300 ease-in"
+          >
+            Log in
+          </Link>
+        </div>
+        <div>
+          <Link
+            to="/signup"
+            className="px-5 py-2 lg:block md:block hidden rounded-md text-[#fff] bg-[#0365F8] no-underline transition-transform hover:scale-110 duration-300 ease-in"
+          >
+            Create account
+          </Link>
+        </div>
       </div>
+
       <div className="md:hidden">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
@@ -90,6 +104,14 @@ const Navbar = () => {
             Testimonials
           </Link>
           <Link
+            to="/login"
+            onClick={closeMenu}
+            className="px-4 py-2 lg:hidden grid justify-center font-bold md:hidden cursor-pointer  rounded-3xl text-black  no-underline transition-transform hover:scale-110 duration-300 ease-in"
+          >
+            Login
+          </Link>
+          <Link
+            to="/signup"
             onClick={closeMenu}
             className="px-4 py-2 lg:hidden grid justify-center font-bold md:hidden cursor-pointer  rounded-3xl text-[#fff] bg-[#0365F8]  no-underline transition-transform hover:scale-110 duration-300 ease-in"
           >

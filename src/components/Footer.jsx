@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className=" bg-[#E2F5FF] text-black font-Satoshi">
-      <div className="md:px-16 lg:px-28 px-8 py-10">
+      <div className="md:px-10 lg:px-16 px-8 py-10">
         <div className=" lg:flex md:grid grid justify-between">
           <div className=" grid gap-3 ">
             <div className="  font-semibold flex items-center">
